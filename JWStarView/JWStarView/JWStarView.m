@@ -20,6 +20,14 @@ typedef void(^completeBlock)(CGFloat currentScore);
 @end
 @implementation JWStarView
 #pragma mark - 代理方式
+-(void)awakeFromNib
+{
+    [super awakeFromNib];
+    _numberOfStars = 5;
+    _rateStyle = WholeStar;
+    [self createStarView];
+    
+}
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         _numberOfStars = 5;
