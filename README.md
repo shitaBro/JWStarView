@@ -2,6 +2,7 @@
 > 一款支持整星半星评论的demo
 <img src="https://github.com/JarvisHot/JWStarView/blob/master/JWStarView/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-06-22%2014.27.17.png" width="320" height="550">
 ## 使用说明
+
 ```
     JWStarView*star=[[JWStarView alloc]initWithFrame:CGRectMake(20, 60, 200, 30)];
     star.rateStyle=HalfStar;
