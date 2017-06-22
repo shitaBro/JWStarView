@@ -16,6 +16,7 @@
 		63599B031EFB946700F8AC67 /* JWStarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63599B021EFB946700F8AC67 /* JWStarViewTests.m */; };
 		63599B0E1EFB946700F8AC67 /* JWStarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63599B0D1EFB946700F8AC67 /* JWStarViewUITests.m */; };
 		63599B1E1EFB94B300F8AC67 /* JWStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63599B1D1EFB94B300F8AC67 /* JWStarView.m */; };
+		63599B221EFB9B1400F8AC67 /* 屏幕快照 2017-06-22 14.27.17.png in Resources */ = {isa = PBXBuildFile; fileRef = 63599B211EFB9B1400F8AC67 /* 屏幕快照 2017-06-22 14.27.17.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		63599B0F1EFB946700F8AC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63599B1C1EFB94B300F8AC67 /* JWStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWStarView.h; sourceTree = "<group>"; };
 		63599B1D1EFB94B300F8AC67 /* JWStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWStarView.m; sourceTree = "<group>"; };
+		63599B211EFB9B1400F8AC67 /* 屏幕快照 2017-06-22 14.27.17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-06-22 14.27.17.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				63599AEC1EFB946600F8AC67 /* AppDelegate.m */,
 				63599AEE1EFB946600F8AC67 /* ViewController.h */,
 				63599AEF1EFB946600F8AC67 /* ViewController.m */,
+				63599B211EFB9B1400F8AC67 /* 屏幕快照 2017-06-22 14.27.17.png */,
 				63599AF11EFB946600F8AC67 /* Main.storyboard */,
 				63599AF41EFB946600F8AC67 /* Assets.xcassets */,
 				63599AF61EFB946600F8AC67 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63599AF81EFB946600F8AC67 /* LaunchScreen.storyboard in Resources */,
+				63599B221EFB9B1400F8AC67 /* 屏幕快照 2017-06-22 14.27.17.png in Resources */,
 				63599AF51EFB946600F8AC67 /* Assets.xcassets in Resources */,
 				63599AF31EFB946600F8AC67 /* Main.storyboard in Resources */,
 			);
@@ -532,6 +536,7 @@
 				63599B141EFB946700F8AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63599B151EFB946700F8AC67 /* Build configuration list for PBXNativeTarget "JWStarViewTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +545,7 @@
 				63599B171EFB946700F8AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63599B181EFB946700F8AC67 /* Build configuration list for PBXNativeTarget "JWStarViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +554,7 @@
 				63599B1A1EFB946700F8AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
